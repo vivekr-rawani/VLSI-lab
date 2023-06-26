@@ -1,11 +1,9 @@
 
-import { Grid, Typography } from "@mui/material"
+import { Grid,  } from "@mui/material"
 import './styles.css'
 import People from "./People"
 import MoveStuffAround from "./News"
 import Projects from "./Projects"
-import Hardware from "./Hardware"
-import Software from "./Software"
 import Facilities from "./Facilities"
 import Courses from "./Courses"
 function MainContent() {
