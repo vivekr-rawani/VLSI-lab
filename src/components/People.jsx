@@ -1,3 +1,4 @@
+import { Typography } from '@mui/material';
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
@@ -8,11 +9,11 @@ import ListItemText from '@mui/material/ListItemText';
 export default function BasicList() {
     return (
         <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
-
             <div className="people">
-                <h3 className="sub-heading">People</h3>
-               
-                    <List dense={true}>
+            <Typography variant='h4' className='sub-heading'>
+                People
+            </Typography>
+                    <List dense={true} style={{paddingTop:'0px'}}>
                         <ListItem>
                             <ListItemButton component="a" href="https://nitjsr.ac.in/people/profile/EC103">
                                 <ListItemText primary="Dr. Amit Prakash" />
@@ -45,27 +46,3 @@ export default function BasicList() {
         </Box>
     );
 }
-
-{/* <ul>
-    <li>
-        <a href="">
-            </a
-        >
-    </li>
-    <li>
-        <a
-            href="https://nitjsr.ac.in/people/profile/EC110"
-
-        ></a
-        >
-    </li>
-
-    <li>
-        <a href="https://nitjsr.ac.in/people/profile/EC106"
-        >Dr. Basant Bhomik</a
-        >
-    </li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
-</ul>
-</div > */}
