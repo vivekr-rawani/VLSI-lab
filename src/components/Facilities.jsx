@@ -6,6 +6,7 @@ import hardware4 from '../assets/hardware4.jpg'
 import Cadence from   '../assets/Cadence.jpg'
 import Vivado from '../assets/Vivado.jpg'
 import Mentor from '../assets/Mentor.jpg'
+import labview from '../assets/labview.png'
 
 const rows = [
     {
@@ -42,6 +43,11 @@ const rows = [
         name : 'Mentor Graphics EDA Tool Set',
         desc : 'Integrated circuit layout full - custom and SDL tools such as IC Station IC Place and route tool - Olympus-SoC IC Verification tools such as Calibre nmDRC, Calibre nmLVS, Calibre xRC, Calibre xACT Schematic editors for electronic schematics such as Design Architect IC or DxDesigner Layout and design tools for printed circuit boards with programs such as PADS, Xpedition Enterprise and Board Station Component library management tools IP cores for ASIC and FPGA designs',
         img : Mentor
+    },
+    {
+        name : 'Lab View',
+        desc : 'The LabVIEW programming environment simplifies hardware integration for engineering applications so that you have a consistent way to acquire data from NI and third-party hardware. LabVIEW reduces the complexity of programming, so you can focus on your unique engineering problem. LabVIEW enables you to immediately visualize results with built-in, drag-and-drop engineering user interface creation and integrated data viewers. To turn your acquired data into real business results, you can develop algorithms for data analysis and advanced control with included math and signal processing IP or reuse your own libraries from a variety of tools. To ensure compatibility with other engineering tools, LabVIEW can interoperate with, and reuse libraries from, other software and open-source languages.',
+        img : labview
     }
     
 ];

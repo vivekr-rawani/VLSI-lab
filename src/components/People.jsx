@@ -16,27 +16,27 @@ export default function BasicList() {
                     <List dense={true} style={{paddingTop:'0px'}}>
                         <ListItem>
                             <ListItemButton component="a" href="https://nitjsr.ac.in/people/profile/EC103">
-                                <ListItemText primary="Dr. Amit Prakash" />
+                                <ListItemText primary="Dr. Amit Prakash (Lab Incharge)" secondary='Head of Department' />
                             </ListItemButton>
                         </ListItem>
                         <ListItem>
                             <ListItemButton component="a" href="https://nitjsr.ac.in/people/profile/EC110">
-                                <ListItemText primary="Dr. Kunal Singh" />
+                                <ListItemText primary="Dr. Kunal Singh (Lab Incharge)"secondary='Assistant Professor' />
                             </ListItemButton>
                         </ListItem>
                         <ListItem>
                             <ListItemButton component="a" href="https://nitjsr.ac.in/people/profile/EC106">
-                                <ListItemText primary="Dr. Basanta Bhomik" />
+                                <ListItemText primary="Dr. Basanta Bhomik" secondary='Assistant Professor'/>
                             </ListItemButton>
                         </ListItem>
                         <ListItem>
                             <ListItemButton component="a" href="#">
-                                <ListItemText primary="Dr. Chandradeep Singh" />
+                                <ListItemText primary="Dr. Chandradeep Singh"secondary='Assistant Professor' />
                             </ListItemButton>
                         </ListItem>
                         <ListItem>
                             <ListItemButton component="a" href="https://nitjsr.ac.in/people/profile/EC120">
-                                <ListItemText primary="Dr Amit Kumar" />
+                                <ListItemText primary="Dr Amit Kumar"secondary='Assistant Professor' />
                             </ListItemButton>
                         </ListItem>
 
