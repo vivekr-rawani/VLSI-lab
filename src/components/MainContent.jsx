@@ -1,6 +1,7 @@
 
 import { Grid } from "@mui/material"
 import './styles.css'
+import People from "./People"
 function MainContent() {
     return (
         <>
@@ -39,31 +40,7 @@ function MainContent() {
                                 <li>Chips to Start-Up (C2S) Programme of MeitY- “Design and development of System on Chip based next generation IoT System for Industry 4.0 with Functional Safety and Security Features”, 5 year (2023-28), &#x20B9; 96.0 Lakh (Ongoing)</li>
                             </ol>
                         </div>
-                        <div className="people">
-                            <h3 className="sub-heading">People</h3>
-                            <ul>
-                                <li>
-                                    <a href="https://nitjsr.ac.in/people/profile/EC103">
-                                        Dr. Amit Prakash</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://nitjsr.ac.in/people/profile/EC110"
-                                        
-                                    >Dr. Kunal Singh</a
-                                    >
-                                </li>
-
-                                <li>
-                                    <a href="https://nitjsr.ac.in/people/profile/EC106"
-                                    >Dr. Basant Bhomik</a
-                                    >
-                                </li>
-                                <li><a href="">Dr. Chandradeep Singh</a></li>
-                                <li><a href=""></a></li>
-                            </ul>
-                        </div>
+                       <People/>
                     </div>
                 </Grid>
                 <Grid item md={3} xs={0}>
