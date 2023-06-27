@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
 *{
     margin : 0;
     font-family: 'Noto Sans', sans-serif;
@@ -185,4 +186,8 @@
 .people{
   margin-top: 2rem;
 
+}
+ul{
+  list-style-type: square;
+  color :#211d70
 }

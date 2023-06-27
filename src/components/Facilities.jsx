@@ -1,19 +1,21 @@
 import { Typography, Box, Table, Paper, TableRow, TableHead, TableContainer, TableCell, TableBody } from "@mui/material"
-import hardware1 from '../assets/hardware1.jpg'
+
 import hardware2 from '../assets/hardware2.jpg'
 import hardware3 from '../assets/hardware3.jpg'
 import hardware4 from '../assets/hardware4.jpg'
+import hardware5 from '../assets/hardware5.jpeg'
 import Cadence from   '../assets/Cadence.jpg'
 import Vivado from '../assets/Vivado.jpg'
 import Mentor from '../assets/Mentor.jpg'
 import labview from '../assets/labview.png'
+import Nexys from '../assets/Nexys.png'
 
 const rows = [
     {
-        name : 'Artix-7 FPGA',
-        desc : 'The AC701 evaluation board for the Artix-7 FPGA provides a hardware environment for developing and evaluating designs targeting the Artix-7 XC7A200T-2FBG676C FPGA. The AC701 board provides features common to many embedded processing systems, including a DDR3 SODIMM memory, an 4-lane PCI Express interface, a tri-mode Ethernet PHY, general purpose I/O, and a UART interface.',
-        img : hardware1
-    },
+        name : 'Nexys 4 DDR Artix-7 FPGA',
+        desc : 'The Nexys 4 DDR board is a complete, ready-to-use digital circuit development platform based on the latest Artix-7™ Field Programmable Gate Array (FPGA) from Xilinx®. With its large, high-capacity FPGA (Xilinx part number XC7A100T-1CSG324C), generous external memories, and collection of USB, Ethernet, and other ports, the Nexys4 DDR can host designs ranging from introductory combinational circuits to powerful embedded processors. Several built-in peripherals, including an accelerometer, temperature sensor, MEMs digital microphone, a speaker amplifier, and several I/O devices allow the Nexys4 DDR to be used for a wide range of designs without needing any other components',
+        img : Nexys
+    },    
     {
         name : 'Basys-3 FPGA Board',
         desc : 'The Basys-3 is an entry-level FPGA development board designed exclusively for the Vivado® Design Suite featuring the Xilinx® Artix®-7-FPGA architecture. Basys-3 is the newest addition to the popular Basys line of FPGA development boards for students or beginners just getting started with FPGA technology. Board has complete ready-to-use hardware, a large collection of on-board I/O devices, all required FPGA support circuits and development tools.',
@@ -23,6 +25,11 @@ const rows = [
         name : 'Analog Discovery 2 with parts kit',
         desc : 'Digilent Analog Discovery 2 is a USB oscilloscope and multi-function instrument that allows users to measure, visualize, generate, record, and control mixed-signal circuits of all kinds. Analog Discovery 2 is small enough to fit in a pocket, but powerful enough to replace a stack of lab equipment, providing engineering students, hobbyists and electronics enthusiasts the freedom to work with analog and digital circuits in virtually any environment, in or out of the lab.',
         img : hardware3
+    },
+    {
+        name : 'Analog Discovery 100MS/s USB Oscilloscope and Logic Analyzer',
+        desc : 'Digilent Analog Discovery 2 is a USB oscilloscope and multi-function instrument that allows users to measure, visualize, generate, record, and control mixed-signal circuits of all kinds. Analog Discovery 2 is small enough to fit in a pocket, but powerful enough to replace a stack of lab equipment, providing engineering students, hobbyists and electronics enthusiasts the freedom to work with analog and digital circuits in virtually any environment, in or out of the lab.',
+        img : hardware5
     },
     {
         name : 'NI digital electronics FPGA board',
@@ -48,7 +55,8 @@ const rows = [
         name : 'Lab View',
         desc : 'The LabVIEW programming environment simplifies hardware integration for engineering applications so that you have a consistent way to acquire data from NI and third-party hardware. LabVIEW reduces the complexity of programming, so you can focus on your unique engineering problem. LabVIEW enables you to immediately visualize results with built-in, drag-and-drop engineering user interface creation and integrated data viewers. To turn your acquired data into real business results, you can develop algorithms for data analysis and advanced control with included math and signal processing IP or reuse your own libraries from a variety of tools. To ensure compatibility with other engineering tools, LabVIEW can interoperate with, and reuse libraries from, other software and open-source languages.',
         img : labview
-    }
+    },
+    
     
 ];
 
