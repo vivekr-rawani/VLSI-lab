@@ -65,8 +65,8 @@ function Facilities() {
     return (
         <Box className="facilities" marginTop={'3rem'} >
             <Typography variant="h4" className="sub-heading">Facilities </Typography>
-            <TableContainer component={Paper}  >
-                <Table sx={{ minWidth: 650 }} aria-label="simple table" bgcolor='#F3FFFF'>
+            <TableContainer component={Paper} sx={{ maxHeight: 440 }} >
+                <Table sx={{ minWidth: 650 }} stickyHeader aria-label="sticky table" bgcolor='#F3FFFF'>
                     <TableHead>
                         <TableRow>
                             <TableCell>
