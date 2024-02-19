@@ -9,7 +9,7 @@ import Courses from "./Courses"
 function MainContent() {
     return (
         <>
-            <div className="lab-title">VLSI DESIGN LAB</div>
+            <div className="lab-title">Solid State Electronics and VLSI Lab</div>
             <Grid container>
                 <Grid item md={9} xs={12}>
                     <div className="content-wrapper">
@@ -19,7 +19,7 @@ function MainContent() {
                         <People />
                     </div>
                 </Grid>
-                <Grid item md={3} xs={0}>
+                <Grid item md={3} xs={0} className="news-section">
                     <MoveStuffAround />
                 </Grid>
             </Grid>
