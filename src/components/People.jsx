@@ -6,6 +6,50 @@ import ListItemButton from '@mui/material/ListItemButton';
 
 import ListItemText from '@mui/material/ListItemText';
 
+
+const peopleList = [
+    {
+        name : 'Prof. Amit Prakash' ,
+        post : '' ,
+        profileLink : 'https://nitjsr.ac.in/people/profile/EC103'
+    },
+    {
+        name : 'Dr. Kunal Singh (Professor Incharge)' ,
+        post : 'Assistant Professor' ,
+        profileLink : ''
+    },
+    {
+        name : 'Dr. Basanta Bhomik (Professor Incharge)' ,
+        post : 'Assistant Professor' ,
+        profileLink : 'https://nitjsr.ac.in/people/profile/EC106'
+    },
+    {
+        name : 'Dr. Chandradeep Singh' ,
+        post : 'Assistant Professor' ,
+        profileLink : '#'
+    },
+    {
+        name : 'Dr. Amit Kumar' ,
+        post : 'Assistant Professor' ,
+        profileLink : 'https://nitjsr.ac.in/people/profile/EC120'
+    },
+    {
+        name : 'Aditya Kumar Nagmani' ,
+        post : 'Sr. Project Associate - C2S' ,
+        profileLink : '#'
+    },
+    {
+        name : 'Priya Ranjan Satapathi' ,
+        post : 'Project Associate - C2S' ,
+        profileLink : '#'
+    },
+    {
+        name : 'Mr. Reyan Akhtar' ,
+        post : 'Lab Incharge' ,
+        profileLink : '#'
+    },
+]
+
 export default function BasicList() {
     return (
         <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
@@ -13,40 +57,22 @@ export default function BasicList() {
             <Typography variant='h4' className='sub-heading'>
                 People
             </Typography>
-                    <List dense={true} style={{paddingTop:'0px'}}>
-                        <ListItem>
-                            <ListItemButton component={Link} href="https://nitjsr.ac.in/people/profile/EC103">
-                                <ListItemText primary="Dr. Amit Prakash (Professor Incharge)" secondary='Head of Department' />
-                            </ListItemButton>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemButton component="a" href="https://nitjsr.ac.in/people/profile/EC110">
-                                <ListItemText primary="Dr. Kunal Singh (Professor Incharge)"secondary='Assistant Professor' />
-                            </ListItemButton>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemButton component="a" href="https://nitjsr.ac.in/people/profile/EC106">
-                                <ListItemText primary="Dr. Basanta Bhomik" secondary='Assistant Professor'/>
-                            </ListItemButton>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemButton component="a" href="#">
-                                <ListItemText primary="Dr. Chandradeep Singh"secondary='Assistant Professor' />
-                            </ListItemButton>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemButton component="a" href="https://nitjsr.ac.in/people/profile/EC120">
-                                <ListItemText primary="Dr Amit Kumar"secondary='Assistant Professor' />
-                            </ListItemButton>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemButton component="a" href="#">
-                                <ListItemText primary="Mr Reyan Akhtar"secondary='Lab Incharge' />
-                            </ListItemButton>
-                        </ListItem>
 
+            
+                    <List dense={true} style={{paddingTop:'0px'}}>
+
+                    {
+                        peopleList.map((people, i)=>{
+                            return(
+                                <ListItem key={i}>
+                            <ListItemButton component={Link} href={people.profileLink}>
+                                <ListItemText primary={people.name} secondary={people.post} />
+                            </ListItemButton>
+                        </ListItem>
+                            )
+                        })
+                    }
                     </List>
-                
                 </div>
         </Box>
     );

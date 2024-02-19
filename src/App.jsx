@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./Pages/Home/Home"
 import Login from "./Pages/Login/Login"
 function App() {

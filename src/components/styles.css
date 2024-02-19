@@ -162,9 +162,25 @@
     height: auto;
     text-align: center;
     font-size: 3rem;
-    color: #ffffff;
+    /* color: #ffffff; */
     letter-spacing: -1px;
 
+}
+@media screen and (max-width: 480px) {
+  .lab-title {
+    padding: 5px 3px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+ 
+}
+
+@media screen and (max-width: 900px) {
+  .news-section {
+    width: 100%;
+  }
 }
 .sub-heading{
     color : #211d70;
@@ -190,4 +206,7 @@
 ul{
   list-style-type: square;
   color :#211d70
+}
+.link{
+  text-decoration: none;
 }
