@@ -1,5 +1,5 @@
 import logo from '../assets/logo_new.c32b27e1.png'
-import banner from '../assets/banner.jpg'
+import banner from '../assets/banner.png'
 import './styles.css'
 
 function Heading() {
