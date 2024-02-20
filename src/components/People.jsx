@@ -14,13 +14,13 @@ const peopleList = [
         profileLink : 'https://nitjsr.ac.in/people/profile/EC103'
     },
     {
-        name : 'Dr. Kunal Singh (Professor Incharge)' ,
-        post : 'Assistant Professor' ,
+        name : 'Dr. Kunal ' ,
+        post : 'Professor Incharge' ,
         profileLink : ''
     },
     {
-        name : 'Dr. Basanta Bhomik (Professor Incharge)' ,
-        post : 'Assistant Professor' ,
+        name : 'Dr. Basanta Bhomik' ,
+        post : 'Professor Incharge' ,
         profileLink : 'https://nitjsr.ac.in/people/profile/EC106'
     },
     {
@@ -28,11 +28,11 @@ const peopleList = [
         post : 'Assistant Professor' ,
         profileLink : '#'
     },
-    {
-        name : 'Dr. Amit Kumar' ,
-        post : 'Assistant Professor' ,
-        profileLink : 'https://nitjsr.ac.in/people/profile/EC120'
-    },
+    // {
+    //     name : 'Dr. Amit Kumar' ,
+    //     post : 'Assistant Professor' ,
+    //     profileLink : 'https://nitjsr.ac.in/people/profile/EC120'
+    // },
     {
         name : 'Aditya Kumar Nagmani' ,
         post : 'Sr. Project Associate - C2S' ,
@@ -45,7 +45,7 @@ const peopleList = [
     },
     {
         name : 'Mr. Reyan Akhtar' ,
-        post : 'Lab Incharge' ,
+        post : '' ,
         profileLink : '#'
     },
 ]
