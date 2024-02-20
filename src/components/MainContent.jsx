@@ -11,7 +11,7 @@ function MainContent() {
         <>
             <div className="lab-title">Solid State Electronics and VLSI Lab</div>
             <Grid container>
-                <Grid item md={9} xs={12}>
+                <Grid item md={8} xs={12}>
                     <div className="content-wrapper">
                         <Courses />
                         <Facilities />
@@ -19,7 +19,7 @@ function MainContent() {
                         <People />
                     </div>
                 </Grid>
-                <Grid item md={3} xs={0} className="news-section">
+                <Grid item md={4} xs={0} className="news-section">
                     <MoveStuffAround />
                 </Grid>
             </Grid>
