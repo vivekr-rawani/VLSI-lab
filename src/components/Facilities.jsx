@@ -9,8 +9,99 @@ import Vivado from '../assets/Vivado.jpg'
 import Mentor from '../assets/Mentor.jpg'
 import labview from '../assets/labview.png'
 import Nexys from '../assets/Nexys.png'
+import BooleanBoard from '../assets/boolean-board.png'
+import UrbanaBoard from '../assets/Urbana-board.png'
+import PYNQZ2 from '../assets/PYNQ-Z2.png'
+import PYNQZU from '../assets/PYNQ-ZU.png'
+import ZINC_SOC from '../assets/zinc_soc.png'
+
 
 const rows = [
+    {
+        name : "Boolean Board",
+        desc :"FPGA\
+        XC7S50-1CSGA342\
+        I/O Interfaces\
+        USB-UART for programming and serial communication\
+        HDMI output\
+        On-board Bluetooth Low Energy radio (option)\
+        Memory\
+        128 Mbit Serial Flash",
+        img: BooleanBoard
+
+    },
+    {
+        name : "Urbana Board",
+        desc :`Xilinx Spartan-7 XC7S50-CSGA324 FPGA
+        1Gbit DDR3 memory (64M x 16)
+        USB port for power, programming and UART/COM port
+        USB2 host port
+        Bluetooth Low Energy (BLE) radio
+        HDMI source (up to 1080p)
+        Audio out (PWM)
+        Digital (PDM) micrcophone
+        16MB QSPI`,
+        img: UrbanaBoard
+
+    },
+    {
+        name : "Pynq Z2",
+        desc :`FPGA
+        Zynq-7000 SoC XC7Z020-1CLG400C
+        
+        I/O Interfaces
+        USB-JTAG Programming circuitry
+        USB OTG 2.0
+        USB-UART bridge
+        One 10/100/1G Ethernet
+        HDMI Input
+        HDMI Output
+        I2S interface with 24bit DAC with 3.5mm TRRS jack
+        Line-in with 3.5mm jack
+        
+        Memory
+        512 Mbyte DDR3 with 16-bit bus @ 1050 Mbps
+        128 Mbit Quad-SPI Flash
+        Micro SD card connector`,
+        img: PYNQZ2
+
+    },
+    {
+        name : "Pynq ZU",
+        desc :`FPGA
+        Zynq UltraScale+ XCZU5EG-1SFVC784 MPSoC
+        
+        I/O Interfaces
+        Micro USB-JTAG Programming circuitry
+        USB 3.0 OTG PHY (supports host only)
+        Micro USB-UART bridge
+        USB Composite 3.0
+        4x USB 3.0
+        HDMI 2.0 sink port (input)
+        HDMI 2.0 source port (output)
+        Mini Display Port
+        Audio Codec
+        XADC
+        Wifi + Bluetooth
+        
+        Memory
+        4GB DDR4 2400R (64 bits wide)
+        Micro SD slot`,
+        img: PYNQZU
+
+    },
+    {
+        name : "Zynq SoC UltraScale + MPSoC ZCUI04",
+        desc :`reVISION package provides out-of-box SDSoC software development flow with OpenCV libraries, machine learning framework, USB HD camera, and live sensor support
+
+        reVISION Getting Started Guide
+        
+        PS DDR4 2GB Component - 64-bit
+        
+        Integrated video codec unit supports H.264/H.265`,
+        img: ZINC_SOC
+
+    },
     {
         name : 'Nexys 4 DDR Artix-7 FPGA',
         desc : 'The Nexys 4 DDR board is a complete, ready-to-use digital circuit development platform based on the latest Artix-7™ Field Programmable Gate Array (FPGA) from Xilinx®. With its large, high-capacity FPGA (Xilinx part number XC7A100T-1CSG324C), generous external memories, and collection of USB, Ethernet, and other ports, the Nexys4 DDR can host designs ranging from introductory combinational circuits to powerful embedded processors. Several built-in peripherals, including an accelerometer, temperature sensor, MEMs digital microphone, a speaker amplifier, and several I/O devices allow the Nexys4 DDR to be used for a wide range of designs without needing any other components',
