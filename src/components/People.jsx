@@ -9,12 +9,12 @@ import ListItemText from '@mui/material/ListItemText';
 
 const peopleList = [
     {
-        name : 'Prof. Amit Prakash' ,
+        name : 'Dr. Amit Prakash' ,
         post : '' ,
         profileLink : 'https://nitjsr.ac.in/people/profile/EC103'
     },
     {
-        name : 'Dr. Kunal ' ,
+        name : 'Dr. Kunal Singh' ,
         post : 'Professor Incharge' ,
         profileLink : ''
     },
@@ -25,7 +25,7 @@ const peopleList = [
     },
     {
         name : 'Dr. Chandradeep Singh' ,
-        post : 'Assistant Professor' ,
+        post : '' ,
         profileLink : '#'
     },
     // {
@@ -35,12 +35,13 @@ const peopleList = [
     // },
     {
         name : 'Aditya Kumar Nagmani' ,
-        post : 'Sr. Project Associate - C2S' ,
+        post : '' ,
         profileLink : '#'
     },
+    //Project Associate - C2S
     {
         name : 'Priya Ranjan Satapathi' ,
-        post : 'Project Associate - C2S' ,
+        post : '' ,
         profileLink : '#'
     },
     {
